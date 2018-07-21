@@ -1,10 +1,11 @@
-const chai = require('chai')
-const supertest = require('supertest')
+const chai = require("chai");
+const supertest = require("supertest");
 /* ADD ME! */
-const app = require('../app')
+const app = require("../app");
+const expect = chai.expect;
 
-const expect = chai.expect
+const expect = chai.expect;
 
-describe('app', function() {
-  it('runs')
-})
+describe("app", function() {
+  it("runs");
+});
